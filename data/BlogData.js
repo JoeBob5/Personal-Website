@@ -7,7 +7,7 @@ export default [
     tools: ["HTML5", "CSS3", "JavaScript"],
     skills: ["Data manipulation"],
     date: "December 28, 2022",
-    img: "/../public/img/word_freq_screenshot.png", 
+    img: "/../public/word_freq_screenshot.png", 
     links: { 
       GitHub: "https://github.com/JoeBob5/Portfolio/tree/master/Projects/Word%20Frequency", 
       CodePen: "https://codepen.io/JoeBob5/full/ExpvNry", 
@@ -31,7 +31,7 @@ export default [
     tools: ["HTML5", "CSS3", "JavaScript"],
     skills: ["Data management"],
     date: "January 9, 2023",
-    img: "/../public/img/blog_screenshot.png", 
+    img: "/../public/blog_screenshot.png", 
     links: { 
       GitHub: "https://github.com/JoeBob5/Portfolio/tree/master", 
       CodePen: "https://codepen.io/JoeBob5/full/ExpvPQr", 
@@ -44,7 +44,7 @@ export default [
     tools: ["HTML5", "CSS3", "React"],
     skills: ["React"],
     date: "January 14, 2023",
-    img: "/../public/img/math_quiz_screenshot.png", 
+    img: "/../public/math_quiz_screenshot.png", 
     links: { 
       GitHub: "https://github.com/JoeBob5/Portfolio/tree/master/Projects/Math%20Quiz", 
       CodePen: "", 
@@ -57,7 +57,7 @@ export default [
     tools: ["HTML5", "CSS3", "JavaScript"],
     skills: ["using APIs"],
     date: "January 9, 2023",
-    img: "/../public/img/Flag_Finder_Screenshot.png", 
+    img: "/../public/Flag_Finder_Screenshot.png", 
     links: { 
       GitHub: "https://github.com/JoeBob5/Portfolio/tree/master/Projects/Country%20Flag%20Finder", 
       CodePen: "https://codepen.io/JoeBob5/full/rNrzxzZ", 
