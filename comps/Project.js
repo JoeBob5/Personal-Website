@@ -9,7 +9,7 @@ function Project( { project }){
       <div className="project-preview-text-container">
         <h4>{ project.name }</h4>
         <p> { project.description }</p>
-        <Link href={ `/Projects/${ project.id }` }>{ "read more" }</Link>
+        <Link href={ `/Projects/${ project.id }` }></Link>
       </div>
       <Link 
       className="project-preview-image-container"

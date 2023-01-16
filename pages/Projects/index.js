@@ -16,7 +16,7 @@ function Projects(){
   return(
     <>
       <Head>
-        <title>MySite | Work</title>
+        <title>MySite | Projects</title>
       </Head>
       {projects && outputProjects }
     </>
