@@ -1,13 +1,8 @@
-import { useRouter } from "next/router";
 import Link from "next/link";
 
 import BlogData from "../../data/BlogData";
-import Project from "../../comps/Project";
 
-function ProjectPage(){
-  const router = useRouter();
-  const { id } = router.query; 
-
+function ProjectPage3(){
   const data = BlogData; 
 
   return(
@@ -15,11 +10,11 @@ function ProjectPage(){
     <article className="project-page">
       <nav className="navbar">
         <div>
-          <h3>{ data[id].name }</h3>
+          <h3>{ data[3].name }</h3>
         </div>
         <div>
-          <Link target="_blank" href={ data[id].links.GitHub }>Code</Link>
-          <Link target="_blank" href={ data[id].links.CodePen ? data[id].links.CodePen : data[id].links.Scrimba }>Demo</Link>
+          <Link target="_blank" href={ data[3].links.GitHub }>Code</Link>
+          <Link target="_blank" href={ data[3].links.CodePen ? data[3].links.CodePen : data[3].links.Scrimba }>Demo</Link>
         </div>
       </nav>
       <p>Coming soon...</p>
@@ -38,4 +33,4 @@ function ProjectPage(){
   )
 }
 
-export default ProjectPage; 
+export default ProjectPage3; 
