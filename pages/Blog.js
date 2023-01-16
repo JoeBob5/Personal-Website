@@ -8,6 +8,7 @@ function Blog(){
         <title>MySite | Blog</title>
       </Head>
       <h1>Blog</h1>
+      <p>Coming soon...</p>
     </>
    
   )
