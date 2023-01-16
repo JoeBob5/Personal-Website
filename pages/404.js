@@ -8,15 +8,15 @@ function NotFound(){
   useEffect(() => {
     setTimeout(() => {
       router.push("/");
-    }, 3000)
+    }, 5000)
   }, []); 
   
   return(
-    <>
+    <div className="not-found">
       <h1>Oh, no!</h1>
       <p>Your requested page could not be found</p>
-      <p>You will be redirected shortly...</p>
-    </>
+      <p>You will be <span className="golden">redirected</span> shortly...</p>
+    </div>
   )
 }
 
